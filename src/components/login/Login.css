@@ -1,0 +1,37 @@
+.login-container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #dddd;
+    padding: 10px;
+}
+.login-box h3{
+    font-family: sans-serif;
+    color: #000000dd;
+    font-weight: bold;
+}
+.login-box input{
+    padding: 10px;
+}
+.login-box a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.login-box a button{
+    width: 60%;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+}
